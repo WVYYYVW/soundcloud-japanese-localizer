@@ -403,6 +403,28 @@
     "Free Download": "無料ダウンロード",
     "Not available in Japan": "日本では利用できません",
     "Not available in your country": "お住まいの国では利用できません",
+    "space": "スペース",
+    "Play or pause": "再生／一時停止",
+    "Decrease volume": "音量を下げる",
+    "Increase volume": "音量を上げる",
+    "Play next track": "次のトラックを再生",
+    "Play previous track": "前のトラックを再生",
+    "Repeat playing track": "再生中のトラックをリピート",
+    "Seek forward": "早送り",
+    "Seek backward": "巻き戻し",
+    "Like playing track": "再生中のトラックにいいね",
+    "Repost playing track": "再生中のトラックをリポスト",
+    "Seek to position": "指定位置へ移動",
+    "Navigate to playing track": "再生中のトラックへ移動",
+    "Show keyboard shortcuts": "キーボードショートカットを表示",
+    "Navigate to Likes": "いいねへ移動",
+    "Navigate to Feed": "フィードへ移動",
+    "Navigate to Stream": "ストリームへ移動",
+    "Navigate to Library": "ライブラリへ移動",
+    "Navigate to Profile": "プロフィールへ移動",
+    "Navigate to History": "履歴へ移動",
+    "Show Next up": "次に再生を表示",
+    "Search for": "検索:",
   };
 
   /*
@@ -482,6 +504,8 @@
     [/^Hear the tracks (.+) has liked$/, "$1 がいいねしたトラックを聴く"],
     [/^Buy on (.+)$/, "$1 で購入"],
     [/^Not available in (.+)$/, "$1 では利用できません"],
+
+    [/^([A-Z]) then ([A-Z])$/, "$1 → $2"],
 
     // フォロー関係（"Follow back" などの完全一致が優先される）
     [/^Follow (.+)$/, "$1 をフォロー"],

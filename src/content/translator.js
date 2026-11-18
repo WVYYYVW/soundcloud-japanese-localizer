@@ -63,6 +63,9 @@
     ".web-profiles",
     ".userDropbar__title",
     ".soundBadge__content .soundTitle__title",
+    // 検索候補（ユーザーの入力や他ユーザーの検索語）
+    ".autocompleteItem",
+    "q",
     // サードパーティの Cookie 同意画面（法的文言なので原文のまま）
     "#onetrust-consent-sdk",
   ].join(",");
