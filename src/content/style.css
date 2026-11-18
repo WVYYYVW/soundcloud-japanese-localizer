@@ -1,0 +1,9 @@
+/* 日本語は英語より幅を取るため、ヘッダーのボタンなどが折り返さないようにする */
+html[data-scja] .header__right a,
+html[data-scja] .header__navMenu a,
+html[data-scja] .header__navMenuItem,
+html[data-scja] .sc-button,
+html[data-scja] .tabs__tab,
+html[data-scja] .g-tabs-link {
+  white-space: nowrap;
+}
